@@ -51,7 +51,7 @@ INSTALLED_APPS = (
     'popit',
     'annoying',
     'markdown_deux',
-    'adminsortable',
+    'adminsortable2',
 )
 
 MIDDLEWARE_CLASSES = (

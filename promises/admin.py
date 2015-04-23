@@ -4,7 +4,7 @@ from .models import Promise, Fulfillment, \
                     VerificationDocument, Milestone
 from popolo.models import Person
 from django.forms import ModelForm
-from adminsortable.admin import SortableAdminMixin
+from adminsortable2.admin import SortableAdminMixin
 
 # Register your models here.
 
