@@ -5,6 +5,7 @@ pwd = os.path.dirname(__file__)
 
 PROMISES_THEMES = (
 	#'100dias',
+	'agendatransparencia',
     'edicion2015',
 	'incendiovalpo',
 	'terremotonorte',
