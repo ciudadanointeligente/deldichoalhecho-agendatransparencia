@@ -1,23 +1,15 @@
 {% load flatpages %}
 {% load staticfiles %}
 <div class="header">
-      <div class="container">
+    <div class="container">
         <h3 class="title"><a href="/"><img src="{% static 'images/logo-ddah.png' %}"></a></h3>
         <ul class="nav nav-pills">
-          {% get_flatpages as flatpages %}
+            {% get_flatpages as flatpages %}
             {% for page in flatpages %}
             <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
-          {% endfor %}
-          <li><a href="http://consejoanticorrupcion.cl/wp-content/uploads/2015/04/Consejo_Anticorrupcion_Informe_Final.pdf" target="_blank">Informe de la comisión</a></li>
-          <li><a href="http://agendatransparencia.cl" target="_blank">¡Difunde!</a></li>
-          <!-- <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Piñera 2010-2014 <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-pinera-2010-2014/" target="_blank">Cierre de gobierno</a></li>
-            </ul>
-          </li> -->
+            {% endfor %}
+            <li><a href="http://consejoanticorrupcion.cl/wp-content/uploads/2015/04/Consejo_Anticorrupcion_Informe_Final.pdf" target="_blank">Informe Anticorrupción</a></li>
+            <li><a href="http://agendatransparencia.cl" target="_blank">Difunde</a></li>
         </ul>
-      </div>
+    </div>
 </div>
